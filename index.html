@@ -1,0 +1,110 @@
+<!doctype html>
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <link href="styles.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <title>Learnchess.com</title>
+  </head>
+  <body>
+    <script>
+            // When the user scrolls the page, execute myFunction
+      window.onscroll = function() {myFunction()};
+
+      // Get the navbar
+      var navbar = document.getElementById("navbar");
+
+      // Get the offset position of the navbar
+      var sticky = navbar.offsetTop;
+
+      // Add the sticky class to the navbar when you reach its scroll position. Remove "sticky" when you leave the scroll position
+      function myFunction() {
+        if (window.pageYOffset >= sticky) {
+          navbar.classList.add("sticky")
+        } else {
+          navbar.classList.remove("sticky");
+        }
+      }
+    </script>
+    <header class="container navbar navbar-expand-lg navbar-light bg-light">
+      <a  class="navbar-brand" href="index.html">
+      <img class="avatar" src="Images/Index/pppic.jpg">
+       <span></span>Dobrin Ionuț
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item ">
+              <a class="nav-link" href="mychesscareer.html">My Chess Career</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="aboutme.html">About Me</a>
+            </li>
+              <li class="nav-item">
+                  <a class="nav-link" href="contactme.html">Contact Me</a>
+              </li>
+          </ul>
+       </div>
+  </header>
+      <img class="banner" src="Images/Index/banner1.jpg">
+      <p class="p1">
+           Why would a player want to improve at chess? Everyone has a different target:
+      Some people just want to win when playing with their friend, especially because they lost every game so far,
+      some want to play at a porfessional level, and others simply want to enjoy the benefits of learning the game.
+      I want to help you achieve all of those things, and also be even more passionate about the game than you are right now,
+      so let me guide you through this journey that may be a bit hard in the beginning, but certanly
+      beautiful and fulfilling as well.
+      </p>
+      <p class="p2">
+          My Chess Career:
+      </p>
+      <p class="p3">
+        Learn from a tilted player how to play the opening "like a book", the middlegame "like a magician" and the endgame "like a machine",
+        so you can improve your game in no time. My name is Ionuț-Alexandru Dobrin (for short Alex), and this is how i managed to become the player
+        that I am now today:
+      </p>
+      <p class="p4">
+        <a style="text-decoration:none" href="mychesscareer.html">My Chess Career</a>
+      </p>
+      <p class="p5">
+        Benefits of Learning Chess:
+      </p>
+      <ul class="ul">
+        <li>
+          <img class="piece" src="Images/Index/chess_piece.jpg">
+          Improves cognitive skills
+        </li>
+        <li>
+          <img class="piece" src="Images/Index/chess_piece.jpg">
+          Increases attention span
+        </li>
+        <li>
+          <img class="piece" src="Images/Index/chess_piece.jpg">
+          Increases Memory capacity
+        </li>
+        <li>
+          <img class="piece" src="Images/Index/chess_piece.jpg">
+          Encourages understanding of choice and consequences for problem solving
+        </li>
+        <li>
+          <img class="piece" src="Images/Index/chess_piece.jpg">
+          Offers a logical pattern and critical-thinking system
+        </li>
+      </ul>
+      <footer>
+        <div class="icons_group">
+            <a href="https://www.linkedin.com/in/dobrin-ionut-24b58b241/"><input type="image" src="Images/Icons/linkedin.jpg" class="icon"></a>
+            <a href="https://www.instagram.com/ionut.dobrin.03/"><input type="image" src="Images/Icons/instagram.jpg" class="icon"></a>
+            <a href="https://github.com/ionutdd"><input type="image" src="Images/Icons/github.jpg" class="icon"></a>
+        </div>
+        <p class="footerr"; opacity:50%;>Dobrin Ionuț</p>
+      </footer>
+  </body>
+</html>

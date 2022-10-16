@@ -1,0 +1,94 @@
+<!doctype html>
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <link href="styles.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <title>Learnchess.com</title>
+  </head>
+  <body>
+    <script>
+            // When the user scrolls the page, execute myFunction
+      window.onscroll = function() {myFunction()};
+
+      // Get the navbar
+      var navbar = document.getElementById("navbar");
+
+      // Get the offset position of the navbar
+      var sticky = navbar.offsetTop;
+
+      // Add the sticky class to the navbar when you reach its scroll position. Remove "sticky" when you leave the scroll position
+      function myFunction() {
+        if (window.pageYOffset >= sticky) {
+          navbar.classList.add("sticky")
+        } else {
+          navbar.classList.remove("sticky");
+        }
+      }
+    </script>
+    <header class="container navbar navbar-expand-lg navbar-light bg-light">
+      <a  class="navbar-brand" href="index.html">
+      <img class="avatar" src="Images/Index/pppic.jpg">
+       <span></span>Dobrin Ionuț
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item ">
+              <a class="nav-link" href="mychesscareer.html">My Chess Career</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="aboutme.html">About Me</a>
+            </li>
+              <li class="nav-item">
+                  <a class="nav-link" href="contactme.html">Contact Me</a>
+              </li>
+          </ul>
+       </div>
+    </header>
+    <p class="p6">
+      I am a CM (Candidate Master), title received from  <a style="text-decoration:none" href="https://en.wikipedia.org/wiki/FIDE">FIDE</a>
+      in march 2021, currently rated above 2100 live, and over 2400 on  <a style="text-decoration:none" href="https://www.chess.com/member/ionutdd123">chess.com</a>
+      and  <a style="text-decoration:none" href="https://lichess.org/@/johnutdd">lichess</a>. I am 19 years old (born aug 2003) and I have first learned to play chess at the age of 5 when my dad cleverly "tricked" me into learning the game, in exchange for
+      ice cream and sweets (i was in love with those at the time). In no time, I was competing in my first ever tournament in which I won every game, and that gave me confidence to
+      participate in many more, including numerous prestigious tournaments in my country and one European Championship, allowing me to become a better player. Fide has
+      recorded my progress, and it can be seen <a style="text-decoration:none" href="https://ratings.fide.com/profile/1248065/chart">here</a>.
+      <br>
+    </p>
+    <p class="p7">
+      Here are some photos that show how I grew up playing chess. (hopefully you won't find them as embarrasing as i think they are :))
+    </p>
+    <p class="year">2009:</p>
+    <img class="imgleft" src="Images/Chess_Images/2009_1.jpg">
+    <img class="imgright" src="Images/Chess_Images/2009_2.jpg">
+    <p class="year">2014:</p>
+    <img class="imgleft" src="Images/Chess_Images/2014_1.jpg">
+    <img class="imgright" src="Images/Chess_Images/2014_2.jpg">
+    <p class="year">2015:</p>
+    <img class="imgleft" src="Images/Chess_Images/2015_1.jpg">
+    <img class="imgright" src="Images/Chess_Images/2015_2.jpg">
+    <p class="year">2016:</p>
+    <img class="imgleft" src="Images/Chess_Images/2016_1.jpg">
+    <img class="imgright" src="Images/Chess_Images/2016_2.jpg">
+    <p class="year">2017:</p>
+    <img class="imgleft" src="Images/Chess_Images/2017_1.jpg">
+    <img class="imgright" src="Images/Chess_Images/2017_2.jpg">
+    <p class="year">2021:</p>
+    <img class="imgcenter" src="Images/Chess_Images/2021_1.jpg">
+    <footer>
+      <div class="icons_group">
+          <a href="https://www.linkedin.com/in/dobrin-ionut-24b58b241/"><input type="image" src="Images/Icons/linkedin.jpg" class="icon"></a>
+          <a href="https://www.instagram.com/ionut.dobrin.03/"><input type="image" src="Images/Icons/instagram.jpg" class="icon"></a>
+          <a href="https://github.com/ionutdd"><input type="image" src="Images/Icons/github.jpg" class="icon"></a>
+      </div>
+      <p class="footerr"; opacity:50%;>Dobrin Ionuț</p>
+    </footer>
+  </body>
+</html>

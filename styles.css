@@ -1,0 +1,369 @@
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+
+/* Style the navbar */
+#navbar {
+    overflow: hidden;
+    background-color: #333;
+  }
+
+  /* Navbar links */
+  #navbar a {
+    float: left;
+    display: block;
+    color: #000000;
+    text-align: center;
+    padding: 5px;
+    text-decoration: none;
+  }
+
+  /* Page content */
+  .content {
+    padding: 200px;
+  }
+
+  /* The sticky class is added to the navbar with JS when it reaches its scroll position */
+  .sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+
+  /* Add some top padding to the page content to prevent sudden quick movement (as the navigation bar gets a new position at the top of the page (position:fixed and top:0) */
+  .sticky + .content {
+    padding-top: 60px;
+  }
+  .avatar {
+    width:4.5rem;
+    height:4.5rem;
+    border-radius:50%;
+}
+
+.indent
+{
+  text-indent: 50px;
+}
+
+/*banner */
+
+.banner {
+  width: 540px;
+  height: 342px;
+  margin: 0%;
+  margin-top: 35px;
+  margin-left: 195px;
+  position: relative;
+  border-radius: 30px;
+  float:left;
+}
+
+.p1
+{
+  position: relative;
+  width: 700px;
+  height: 100px;
+  margin-left: 800px;
+  margin-top: 69px;
+  font-size: 23px;
+  margin-right: 0px;
+  flew wrap: wrap;
+  text-indent: 50px;
+
+}
+
+.p2
+{
+  margin-left: 200px;
+  margin-top: 275px;
+  font-size: 48px;
+  font-family: "Garamond", "Monaco", "Serif";
+}
+.p3
+{
+  margin-left: 200px;
+  margin-top: 25px;
+  font-size: 23px;
+  width: 1300px;
+  text-indent: 50px;
+}
+
+.p4
+{
+  margin-top: -50px;
+  margin-left: 740px;
+  font-size: 23px;
+}
+
+.p5
+{
+  margin-left: 200px;
+  margin-top: 50px;
+  font-size: 44px;
+  font-family: "Garamond", "Monaco", "Serif";
+}
+
+.ul
+{
+  margin-left: 200px;
+  margin-top: 0px;
+  font-size: 25px;
+  list-style-type: none;
+}
+
+.piece
+{
+  width: 30px;
+  height: 30px;
+  margin: 0%;
+  margin-top: 5px;
+  margin-left: 0px;
+  position: relative;
+  border-radius: 30px;
+  float:left;
+}
+
+.icon {
+  height:25px;
+  width:auto;
+  display:inline-block;
+}
+
+.icons_group {
+  background-color:#d7ffff;
+  margin-top: -15px;
+  text-align:center;
+  margin-bottom:0.3rem;
+}
+
+.footerr
+{
+  background-color:#d7ffff;
+  text-align:center;
+  font-size: 22.5px;
+  margin-top: -5px;
+  margin-bottom:8px;
+  font-family: "Garamond", "Monaco", "Serif";
+}
+
+footer {
+  margin-top: 75px;
+  padding: 2rem 1rem 1rem 1rem;
+  background-color:#d7ffff;
+  margin-left:0;
+}
+
+.p6
+{
+  margin-top: 50px;
+  margin-left: 200px;
+  font-size: 23px;
+  text-indent: 50px;
+  width: 1300px;
+}
+
+.p7
+{
+  margin-top: 15px;
+  margin-left: 200px;
+  font-size: 23px;
+  text-indent: 50px;
+  width: 1300px;
+}
+
+.year
+{
+  margin-top: 25px;
+  margin-left: 200px;
+  font-size: 23px;
+  text-indent: 50px;
+  width: 1300px;
+}
+
+.imgleft
+{
+  width: 570px;
+  height: 375px;
+  margin: 0%;
+  margin-top: 5px;
+  margin-left: 195px;
+  position: relative;
+  border-radius: 30px;
+  float:left;
+}
+
+.imgright
+{
+  width: 570px;
+  height: 375px;
+  margin: 0%;
+  margin-top: -405px;
+  margin-left: 800px;
+  position: relative;
+  border-radius: 30px;
+}
+
+.imgcenter
+{
+  width: 570px;
+  height: 375px;
+  margin: 0%;
+  margin-top: 0px;
+  margin-left: 550px;
+  position: relative;
+  border-radius: 30px;
+}
+
+.am1
+{
+  margin-top: 50px;
+  margin-left: 200px;
+  font-size: 23px;
+  text-indent: 50px;
+  width: 800px;
+}
+
+.imgver
+{
+  width: 250px;
+  height: 400px;
+  margin: 0%;
+  margin-top: -325px;
+  margin-left: 1100px;
+  position: relative;
+  border-radius: 30px;
+}
+
+.abimgright
+{
+  width: 450px;
+  height: 350px;
+  margin: 0%;
+  margin-top: -315px;
+  margin-left: 1050px;
+  position: relative;
+  border-radius: 30px;
+}
+
+.abimgrright
+{
+  width: 450px;
+  height: 400px;
+  margin: 0%;
+  margin-top: -485px;
+  margin-left: 1190px;
+  position: relative;
+  border-radius: 30px;
+}
+
+.abimgleft
+{
+  width: 450px;
+  height: 400px;
+  margin: 0%;
+  margin-top: -10px;
+  margin-left: 195px;
+  position: relative;
+  border-radius: 30px;
+}
+
+.abimgcenter
+{
+  width: 450px;
+  height: 400px;
+  margin: 0%;
+  margin-top: -435px;
+  margin-left: 695px;
+  position: relative;
+  border-radius: 30px;
+}
+
+.sweexp
+{
+  top: 0px;
+  margin-left: 1200px;
+  font-size: 14px;
+}
+
+.m2015exp
+{
+  top: 0px;
+  margin-left: 250px;
+  font-size: 14px;
+}
+
+.m2018exp
+{
+  top: 0px;
+  margin-left: 875px;
+  font-size: 14px;
+}
+
+.p15
+{
+  margin-left: 0px;
+  margin-top: 50px;
+  font-size: 44px;
+  font-family: "Garamond", "Monaco", "Serif";
+}
+
+.p13
+{
+  margin-left: 0px;
+  margin-top: 25px;
+  font-size: 23px;
+  width: 1325px;
+  text-indent: 50px;
+}
+
+.p133
+{
+  margin-left: 125px;
+  margin-top: -62px;
+  font-size: 23px;
+  width: 1300px;
+}
+
+.p1333
+{
+  margin-left: 0px;
+  margin-top: -15px;
+  font-size: 23px;
+  width: 1300px;
+}
+.p134
+{
+  margin-left: 195px;
+  margin-top: -62px;
+  font-size: 23px;
+  width: 1300px;
+}
+
+input[type=text],[type=email], select, textarea {
+  width: 100%; /* Full width */
+  padding: 13px; /* Some padding */
+  border: 1px solid #ccc; /* Gray border */
+  border-radius: 4px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 6px; /* Add a top margin */
+  margin-bottom: 16px; /* Bottom margin */
+  resize: vertical horizontal /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+input[type=submit] {
+  background-color: #FFB319;
+  Color:black;
+  cursor:pointer;
+  padding: 7px 20px;
+  border-radius:10px;
+  border:none;
+  margin-bottom: 10px;
+}
+
+input:focus, textarea:focus, #email:valid{
+  border:none;
+  outline: 1px solid #B8DFD8;
+}
+
+#email:invalid {
+  border: 1px solid #E5996D;
+}
