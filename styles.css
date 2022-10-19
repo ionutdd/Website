@@ -68,6 +68,8 @@
   margin-right: 0px;
   flew wrap: wrap;
   text-indent: 50px;
+  text-align: justify;
+  text-justify: inter-word;
 }
 
 .p2
@@ -76,6 +78,8 @@
   margin-top: 275px;
   font-size: 48px;
   font-family: "Garamond", "Monaco", "Serif";
+  text-align: justify;
+  text-justify: inter-word;
 }
 .p3
 {
@@ -84,6 +88,8 @@
   font-size: 23px;
   width: 1300px;
   text-indent: 50px;
+  text-align: justify;
+  text-justify: inter-word;
 }
 
 .p4
@@ -91,6 +97,8 @@
   margin-top: -50px;
   margin-left: 740px;
   font-size: 23px;
+  text-align: justify;
+  text-justify: inter-word;
 }
 
 .p5
@@ -99,6 +107,8 @@
   margin-top: 50px;
   font-size: 44px;
   font-family: "Garamond", "Monaco", "Serif";
+  text-align: justify;
+  text-justify: inter-word;
 }
 
 .ul
@@ -158,6 +168,8 @@ footer {
   font-size: 23px;
   text-indent: 50px;
   width: 1300px;
+  text-align: justify;
+  text-justify: inter-word;
 }
 
 .p7
@@ -167,6 +179,8 @@ footer {
   font-size: 23px;
   text-indent: 50px;
   width: 1300px;
+  text-align: justify;
+  text-justify: inter-word;
 }
 
 .year
@@ -176,6 +190,8 @@ footer {
   font-size: 23px;
   text-indent: 50px;
   width: 1300px;
+  text-align: justify;
+  text-justify: inter-word;
 }
 
 .imgleft
@@ -219,6 +235,8 @@ footer {
   font-size: 23px;
   text-indent: 50px;
   width: 800px;
+  text-align: justify;
+  text-justify: inter-word;
 }
 
 .imgver
@@ -303,6 +321,8 @@ footer {
   margin-top: 50px;
   font-size: 44px;
   font-family: "Garamond", "Monaco", "Serif";
+  text-align: justify;
+  text-justify: inter-word;
 }
 
 .p13
@@ -312,6 +332,8 @@ footer {
   font-size: 23px;
   width: 1325px;
   text-indent: 50px;
+  text-align: justify;
+  text-justify: inter-word;
 }
 
 .p133
@@ -320,6 +342,8 @@ footer {
   margin-top: -62px;
   font-size: 23px;
   width: 1300px;
+  text-align: justify;
+  text-justify: inter-word;
 }
 
 .p1333
@@ -328,6 +352,8 @@ footer {
   margin-top: -15px;
   font-size: 23px;
   width: 1300px;
+  text-align: justify;
+  text-justify: inter-word;
 }
 .p134
 {
@@ -335,6 +361,8 @@ footer {
   margin-top: -62px;
   font-size: 23px;
   width: 1300px;
+  text-align: justify;
+  text-justify: inter-word;
 }
 
 input[type=text],[type=email], select, textarea {
