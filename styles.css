@@ -1,10 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
 
-
-body { 
-    padding: 0 auto;
-}
 /* Style the navbar */
 #navbar {
     overflow: hidden;
@@ -66,15 +62,12 @@ body {
   position: relative;
   width: 700px;
   height: 100px;
-  margin-left: 1000px;
+  margin-left: 800px;
   margin-top: 69px;
   font-size: 23px;
+  margin-right: 0px;
   flew wrap: wrap;
   text-indent: 50px;
-  text-align: justify;
-  text-justify: inter-word;
-  margin-left: auto;
-  margin-right: auto;
 }
 
 .p2
@@ -83,8 +76,6 @@ body {
   margin-top: 275px;
   font-size: 48px;
   font-family: "Garamond", "Monaco", "Serif";
-  text-align: justify;
-  text-justify: inter-word;
 }
 .p3
 {
@@ -93,8 +84,6 @@ body {
   font-size: 23px;
   width: 1300px;
   text-indent: 50px;
-  text-align: justify;
-  text-justify: inter-word;
 }
 
 .p4
@@ -102,8 +91,6 @@ body {
   margin-top: -50px;
   margin-left: 740px;
   font-size: 23px;
-  text-align: justify;
-  text-justify: inter-word;
 }
 
 .p5
@@ -112,8 +99,6 @@ body {
   margin-top: 50px;
   font-size: 44px;
   font-family: "Garamond", "Monaco", "Serif";
-  text-align: justify;
-  text-justify: inter-word;
 }
 
 .ul
@@ -173,8 +158,6 @@ footer {
   font-size: 23px;
   text-indent: 50px;
   width: 1300px;
-  text-align: justify;
-  text-justify: inter-word;
 }
 
 .p7
@@ -184,8 +167,6 @@ footer {
   font-size: 23px;
   text-indent: 50px;
   width: 1300px;
-  text-align: justify;
-  text-justify: inter-word;
 }
 
 .year
@@ -238,8 +219,6 @@ footer {
   font-size: 23px;
   text-indent: 50px;
   width: 800px;
-  text-align: justify;
-  text-justify: inter-word;
 }
 
 .imgver
@@ -324,8 +303,6 @@ footer {
   margin-top: 50px;
   font-size: 44px;
   font-family: "Garamond", "Monaco", "Serif";
-  text-align: justify;
-  text-justify: inter-word;
 }
 
 .p13
@@ -335,8 +312,6 @@ footer {
   font-size: 23px;
   width: 1325px;
   text-indent: 50px;
-  text-align: justify;
-  text-justify: inter-word;
 }
 
 .p133
@@ -353,8 +328,6 @@ footer {
   margin-top: -15px;
   font-size: 23px;
   width: 1300px;
-  text-align: justify;
-  text-justify: inter-word;
 }
 .p134
 {
@@ -362,8 +335,6 @@ footer {
   margin-top: -62px;
   font-size: 23px;
   width: 1300px;
-  text-align: justify;
-  text-justify: inter-word;
 }
 
 input[type=text],[type=email], select, textarea {
