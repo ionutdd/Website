@@ -64,14 +64,14 @@ body {
 .p1
 {
   position: relative;
-  width: 43.75rem;
-  height: 6.25rem;
-  margin-left: 50rem;
-  margin-top: 4.3125rem;
-  font-size: 1.4375rem;
-  margin-right: 2rem;
+  width: 700px;
+  height: 100px;
+  margin-left: 800px;
+  margin-top: 69px;
+  font-size: 23px;
+  margin-right: 32px;
   flew wrap: wrap;
-  text-indent: 3.125rem;
+  text-indent: 50px;
   text-align: justify;
   text-justify: inter-word;
   margin-left: auto;
